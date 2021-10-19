@@ -53,7 +53,7 @@
     height: auto;
 }
 
-.hogehoge .feature-header .btn-registration {
+.hogehoge .btn-registration {
     border: 0;
     margin: 0;
     padding: 0;
@@ -62,7 +62,7 @@
     height: auto;
 }
 
-.hogehoge .feature-header .btn-registration img {
+.hogehoge .btn-registration img {
     width: 100%;
     height: auto;
 }
@@ -90,6 +90,7 @@
 .hogehoge .feature-contents .game-pv video {
     display: block;
     width: 100%;
+    height: auto;
 }
 
 .hogehoge .feature-contents .story {
@@ -133,7 +134,16 @@
 }
 
 .hogehoge .feature-footer {
+    text-align: center;
+    margin: 20px 0;
+    color: white;
+}
 
+.hogehoge .feature-footer .btn-support img{
+    display: block;
+    width: 50%;
+    height: auto;
+    margin: 20px auto;
 }
 
 
@@ -708,25 +718,25 @@
             <h1><img src="../images_Mobile/banner.png" alt="header-banner" class="header-banner" width="640" height="912"></h1>
             <!-- /feature-header -->
             <button class="btn-registration" type="button" onClick="location.href='#'">
-                <img src="../images/button_1_off.png" alt="registration btn" height="103" width="103">
+                <img src="../images_Mobile/button_1_off.png" alt="registration btn" height="103" width="103">
             </button>
         </header>
 
         <div class="feature-contents">
             <section class="prereg-rewards">
-                <h2><img src="../images/txt1-min.png" alt="reward slogan 1" class="reward-slogan-1" width="517" height="41"></h2>
+                <h2><img src="../images_Mobile/txt1.png" alt="reward slogan 1" class="reward-slogan-1" width="517" height="41"></h2>
                 <img src="../images_Mobile/reward.png" alt="reward-1" class="reward" width="640" height="1232">
             </section>
             <section class="game-pv">
-                <h2><img src="../images/txt3-min.png" alt="reward slogan 1" class="section-header" width="119" height="70"></h2>
-                <video poster="../images/2B.png" controls loop>
+                <h2><img src="../images_Mobile/txt3.png" alt="reward slogan 1" class="section-header" width="119" height="70"></h2>
+                <video poster="../images_Mobile/banner2-min.png" width="854" height="480" controls loop>
                     <p>お使いのブラウザではこの動画を再生できません</p>
                 </video>
             </section>
             <section class="story">
-                <h2><img src="../images/txt7.png" alt="story" class="section-header" width="163" height="68"></h2>
+                <h2><img src="../images_Mobile/txt7.png" alt="story" class="section-header" width="163" height="68"></h2>
                 <div class="story-container">
-                    <img src="../images/txt4-min.png" alt="story text" class="story-text" width="336" height="143">
+                    <img src="../images_Mobile/txt4.png" alt="story text" class="story-text" width="333" height="144">
                     <p class="placeholder">
                         人類はアルファストーンという新しいエネルギーを手に入れ、新たな繁栄時代が始まる。だが人類は未だ戦争を途絶えていた。
                         その為に、君はスカイフリートを参加し平和の為に活動をはじめ、さまざまなエージェントと一緒に戦う。ラブラブ性活はここではじまる！
@@ -734,17 +744,21 @@
                 </div>
             </section>
             <section class="preview">
-            <img src="../images/txt5-min.png" alt="reward slogan 1" class="section-header" width="421" height="31">
+            <img src="../images_Mobile/txt5.png" alt="reward slogan 1" class="section-header" width="426" height="31">
             <div class="slider">
-                <div><video src="../images/video/1.mp4" width="1080" height="720" controls loop autoplay muted></video></div>
-                <div><video src="../images/video/2.mp4" width="1080" height="720" controls loop autoplay muted></video></div>
-                <div><video src="../images/video/3.mp4" width="1080" height="720" controls loop autoplay muted></video></div>
+                <div><video src="../media/1.mp4" width="1080" height="720" controls loop autoplay muted></video></div>
+                <div><video src="../media/2.mp4" width="1080" height="720" controls loop autoplay muted></video></div>
+                <div><video src="../media/3.mp4" width="1080" height="720" controls loop autoplay muted></video></div>
             </div>
-            <img src="../images/txt6-min.png" alt="reward slogan 2" class="section-header" width="470" height="25">
+            <img src="../images_Mobile/txt6.png" alt="reward slogan 2" class="section-header" width="481" height="25">
             </section>
             <!-- /feature-contents -->
         </div>
         <footer class="feature-footer">
+            <button class="btn-registration" type="button" onClick="location.href='#'">
+                <img src="../images_Mobile/button_1_off.png" alt="registration btn" height="103" width="103">
+            </button>
+            <a class="btn-support" href="#" ><img src="../images_Mobile/button_3.png" alt="サポート情報" width="397" height="89"></a>
             <p class="tx-copyright"><small>&copy;Copyright</small></p>
             <!-- /feature-footer -->
         </footer>
